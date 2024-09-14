@@ -9,10 +9,10 @@ class Program
         const double BASE_RATE = 200.00;
         const double PER_MILE_RATE = 2.00;
 
-        Console.Write("Enter number of moving hours ");
+        Console.Write("Enter number of moving hours: ");
         string userHours = Console.ReadLine();
 
-        Console.Write("Enter the number of miles for the move: ");
+        Console.Write("Enter the number of moving miles ");
         string userMiles = Console.ReadLine();
 
         double hours;
@@ -26,7 +26,7 @@ class Program
         }
         else
         {
-            Console.WriteLine("Invalid input. Please enter numeric values for hours and miles.");
+            Console.WriteLine("WRONG input. Please enter a number.");
         }
     }
 }
